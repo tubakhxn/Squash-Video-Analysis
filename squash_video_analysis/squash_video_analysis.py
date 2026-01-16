@@ -1,7 +1,3 @@
-# Squash Video Analysis Project
-# Main script: squash_video_analysis.py
-# Usage: Place your squash game video in the same folder and run this script.
-# The script will detect players and the ball, and output an annotated video.
 
 
 import cv2
@@ -173,3 +169,4 @@ def process_video():
 
 if __name__ == '__main__':
     process_video()
+
